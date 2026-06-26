@@ -1,10 +1,18 @@
-# AI-Based Sentiment Analysis on Amazon Product Reviews
-
-This repository contains the project files for CDS6344 Social Media Computing. The project focuses on analyzing Amazon product reviews using Natural Language Processing techniques. The reviews were classified into Negative, Neutral and Positive sentiments.
+# AI-Based Sentiment Analysis on Amazon Reviews
 
 ## Project Overview
 
-The project includes data preprocessing, traditional machine learning models, deep learning models, transformer-based models, Aspect-Based Sentiment Analysis and data visualization. The main purpose of this project is to understand customer opinions from Amazon reviews and compare the performance of different sentiment analysis models.
+This project focuses on sentiment analysis of Amazon product reviews using Natural Language Processing techniques. The system applies multiple approaches including traditional machine learning, deep learning, transformer-based models, and aspect-based sentiment analysis to classify reviews into negative, neutral, and positive sentiments.
+
+The main goal is to understand customer opinions and compare the performance of different models on real-world review data.
+
+## Dataset
+
+The dataset used in this project is the Amazon Reviews Dataset from Kaggle:
+
+https://www.kaggle.com/datasets/dongrelaxman/amazon-reviews-dataset
+
+It contains product reviews along with rating information used for sentiment classification.
 
 ## Repository Structure
 
@@ -40,11 +48,7 @@ The models used in this project include:
 
 ## Results
 
-The results show that transformer-based models performed better than traditional machine learning and deep learning models. RoBERTa achieved the best performance among the models tested. The visualizations also show that Negative reviews were the largest sentiment class in the dataset.
-
-## Aspect-Based Sentiment Analysis
-
-Aspect-Based Sentiment Analysis was used to identify customer opinions based on specific aspects such as Customer Service, Delivery, Packaging, Price / Value and Product Quality. The ABSA results showed that Customer Service, Delivery and Price / Value received many negative mentions.
+Model evaluation results show a clear advantage of transformer-based approaches over both traditional machine learning and deep learning methods. RoBERTa consistently produced the strongest performance among all tested models. In addition, the dataset distribution highlights that negative reviews dominate the data, indicating that dissatisfaction is more prevalent compared to other sentiment categories.
 
 ## Note on Model Files
 
